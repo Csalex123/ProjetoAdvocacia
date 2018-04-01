@@ -20,7 +20,7 @@
 }
 
 li{
-	color: black;
+	color: white;
 	font-family: arial;
 	font-size: 1.1em;
 
@@ -29,9 +29,13 @@ li{
 p{
 	font-family: arial;
 	font-size: 1.1em;
-	color: black;
+	color: white;
 	text-indent: 2em;
 
+}
+
+h3{
+	color: white;
 }
 
 </style>
@@ -141,7 +145,7 @@ p{
 
 	<div class="row">
 		<p>Com base no acompanhamento sistemático da jurisprudência do Supremo Tribunal Federal, que define a aplicação do Direito Constitucional Brasileiro, a equipe deste escritório orienta seus clientes em relação a constitucionalidade de leis e atos normativos e, também, na defesa de litígios em que se discutem violações à Constituição.<br>
-		Ademais, são inúmeros os remédios constitucionais formalizados perante o Poder Judiciário, especialmente no STF e no STJ, com o intuito de assegurar direitos fundamentais e suscitar a defesa de importantes garantias constitucionais.
+			Ademais, são inúmeros os remédios constitucionais formalizados perante o Poder Judiciário, especialmente no STF e no STJ, com o intuito de assegurar direitos fundamentais e suscitar a defesa de importantes garantias constitucionais.
 		</p>
 
 
@@ -182,6 +186,8 @@ p{
 	</div>
 </div>
 
-
+<?php 
+include('rodape.php');
+?>
 </body>
 </html>
