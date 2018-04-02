@@ -38,7 +38,7 @@
 				</button>
 				<!-- Descrição para o menu responsivo -->
 				<div class="navbar-toggle navbar-brand" id="menuResponsivo">
-					<p class="fonte">Menu</p>
+					<p class="fonte3" >Menu</p>
 				</div>
 
 			</div>

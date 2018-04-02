@@ -30,3 +30,19 @@
 .margin{
 	margin-top: -8px;
 }
+
+#rua{
+		margin-left: -50px;
+	}
+
+@media only screen and (max-width: 500px) {
+	#rua{
+		margin-left: -42px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#fone{
+		margin-left: -28px;
+	}
+}

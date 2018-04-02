@@ -11,28 +11,30 @@ body{
 	background-color:#363636;
 	border: none;
 }
-
+/* Fonte que está sendo usada no menu */
 .fonte{
 	font-size: 1.4em;
 	font-family: arial;
 }
-
-.fonte2{
-	font-size: 1.1em;
+/*  Fonte que está sendo usada no nome "Menu" para menu responsivo*/
+.fonte3{
+	font-size: 1.2em;
 	font-family: arial;
 }
+
 
 li:hover{
 	background-color: #7F8384;
 
 }
-
+/* Classe que está sendo usada no menu responsivo. */
 #menuResponsivo{
 	float: left;
 	background-color:#363636;
 	border:none; 
 }
 
+/* Logo */
 .titulo{
 	background-color:#FFFFFF;
 	display:flex;
