@@ -1,0 +1,18 @@
+@charset "uft-8"; 
+p{
+	text-indent: 2em;
+	color: white;
+	font-family: arial;
+	font-size: 1em;
+}
+
+li{
+	color: white;
+	font-family: arial;
+	font-size: 1.1em;
+
+}
+
+h3{
+	color: white;
+}

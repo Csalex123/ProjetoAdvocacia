@@ -7,51 +7,17 @@
 	<meta charset="utf8">
 	
 	<title>Valmir Oliveira Advogados</title>
-	<link rel="icon"  href="icon.png">
+
+	<link rel="icon"  href="img/icon.png">
+	<link rel="stylesheet" type="text/css" href="css/cssprincipal.css">
 	
-
-	
-	
-
-	<style>
-
-	.titulo{
-		background-color:#FFFFFF;
-		text-align:center;
-		bottom:-200px;
-	}
-
-	p{
-		text-indent: 2em;
-		color: white;
-		font-family: arial;
-		font-size: 1.1em;
-	}
-
-
-	.footer {
-
-		left: 0;
-		bottom: 0;
-		width: 100%;
-		background-color: #363636;
-		color: white;
-		text-align: center;
-		margin-top: 130px;
-
-	}
-</style>
 
 
 </head>
 
 <body>
 
-	<!-- Banner-->	
-	<div class="titulo header" >
-		<img src="https://raw.githubusercontent.com/vosjr/vosjr.github.io/gh-pages/logo.png" alt="Logo.png">
-		<br>
-	</div>
+
 
 	<?php 
 	include('menu.php');

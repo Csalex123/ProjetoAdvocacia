@@ -1,51 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<title></title>
+	<title>Valmir Oliveira Jr.</title>
 </head>
 <meta charset="utf8">
 
 <title>Valmir Oliveira Advogados</title>
-<link rel="icon"  href="icon.png">
+<link rel="icon"  href="img/icon.png">
+<link rel="stylesheet" type="text/css" href="css/cssprincipal.css">
 
 
-
-
-<style>
-
-.titulo{
-	background-color:#FFFFFF;
-	text-align:center;
-	bottom:-200px;
-}
-
-li{
-	color: white;
-	font-family: arial;
-	font-size: 1.1em;
-
-}
-
-p{
-	font-family: arial;
-	font-size: 1.1em;
-	color: white;
-	text-indent: 2em;
-
-}
-
-h3{
-	color: white;
-}
-
-</style>
 <body>
 
-	<!-- Banner-->	
-	<div class="titulo header" >
-		<img src="https://raw.githubusercontent.com/vosjr/vosjr.github.io/gh-pages/logo.png" alt="Logo.png">
-		<br>
-	</div>
+
 
 	<?php 
 	include('menu.php');

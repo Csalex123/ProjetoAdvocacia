@@ -1,0 +1,43 @@
+@charset "uft-8"; 
+
+body{
+	background-color:#7F8384;
+}	
+.nav{
+	background-color:#363636;
+}
+
+.navbar{
+	background-color:#363636;
+	border: none;
+}
+
+.fonte{
+	font-size: 1.4em;
+	font-family: arial;
+}
+
+.fonte2{
+	font-size: 1.1em;
+	font-family: arial;
+}
+
+li:hover{
+	background-color: #7F8384;
+
+}
+
+#menuResponsivo{
+	float: left;
+	background-color:#363636;
+	border:none; 
+}
+
+.titulo{
+	background-color:#FFFFFF;
+	display:flex;
+	display: -webkit-flex;
+	justify-content: center;
+	align-items: center;
+	bottom:-200px;
+}

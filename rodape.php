@@ -4,34 +4,22 @@
 	<meta charset="utf8">
 	
 	<title>Valmir Oliveira Advogados</title>
-	<link rel="icon"  href="icon.png">
+	<link rel="icon"  href="img/icon.png">
+	<link rel="stylesheet" type="text/css" href="css/rodape.css">
 </head>
-<style type="text/css">
-.footer {
-
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	background-color: #363636;
-	color: white;
-	text-align: center;
-	margin-top: 130px;
-	height: 90px;
-
-}
-</style>
-</style>
 <body>
 
 	<div class="footer">
 
-		<p><span class="glyphicon glyphicon-map-marker"></span> Rua Professor José Brandão, 389 - Sala 303 /
+		<p style="margin-left: -10px;" class="margin"><span class="glyphicon glyphicon-map-marker"></span> Rua Professor José Brandão, 389 - Sala 303 </p>
 
-		Boa Viagem - Recife-PE - CEP: 51020-180</p>
+		<p class="margin">Boa Viagem - Recife-PE - CEP: 51020-180</p>
 
-		<p style="margin-top: -8px;">  Fone: 81 9611-1195 | contato@valmiroliveirajr.adv.br</p>
+		<p class="margin">  Fone: 81 9611-1195 | contato@valmiroliveirajr.adv.br </p>
 
-		<p style="margin-top: -8px;"> CopyRight &copy; Valmir Oliveira Jr.</p>
+		<p class="margin">CopyRight &copy; Valmir Oliveira Jr.</p>
+
+		
 
 
 	</div>
