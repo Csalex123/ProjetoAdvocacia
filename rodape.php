@@ -16,11 +16,13 @@
 	color: white;
 	text-align: center;
 	margin-top: 130px;
+	height: 90px;
 
 }
 </style>
 </style>
 <body>
+
 	<div class="footer">
 
 		<p><span class="glyphicon glyphicon-map-marker"></span> Rua Professor José Brandão, 389 - Sala 303 /
@@ -30,6 +32,11 @@
 		<p style="margin-top: -8px;">  Fone: 81 9611-1195 | contato@valmiroliveirajr.adv.br</p>
 
 		<p style="margin-top: -8px;"> CopyRight &copy; Valmir Oliveira Jr.</p>
+
+
 	</div>
+
+
+
 </body>
 </html>
