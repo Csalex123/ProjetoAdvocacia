@@ -1,0 +1,42 @@
+@charset "uft-8"; 
+
+
+
+#button{
+	float: right;
+	width: 130px;
+}
+
+label{
+	font-family: arial;
+	font-size: 1.2em;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+@media only screen and (max-width: 500px) {
+	#nome{
+		width: 290px;
+	}
+	#email{
+		width: 290px;
+	}
+	#contato{
+		width: 290px;
+	}
+
+	#menagem{
+		width: 290px;
+	}
+}
+
+
+#titulo{
+	font-size: 2em;
+	text-align: center;
+}

@@ -11,13 +11,13 @@
 
 	<div class="footer">
 
-		<p  id="rua" class="margin"><span class="glyphicon glyphicon-map-marker"></span> Rua Professor José Brandão, 389 - Sala 303 </p>
+		<p  id="rua" class="margin"> Rua Professor José Brandão, 389 - Sala 303 </p>
 
 		<p class="margin">Boa Viagem - Recife-PE - CEP: 51020-180</p>
 
 		<p id="fone" class="margin">  Fone: 81 9611-1195 | contato@valmiroliveirajr.adv.br </p>
 
-		<p class="margin">CopyRight &copy; Valmir Oliveira Jr.</p>
+		<p class="margin">2018 - CopyRight &copy; Valmir Oliveira Jr.</p>
 
 		
 

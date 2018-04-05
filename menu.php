@@ -12,6 +12,14 @@
 
 	<!-- Arquivo css do menu-->
 	<link rel="stylesheet" type="text/css" href="css/menu.css">
+	<style type="text/css">
+	 .navbar .navbar-collapse ul .active {
+	 	background-color: #7F8384;
+	 	color: white;
+	 }
+		
+	</style>
+    
 
 </head>
 
@@ -48,21 +56,22 @@
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav" id="navmenu">
 								<!-- Opções do menu-->
-				<li class="fonte "><a  href="index.php" >Início</a></li>
+				<li class="fonte"><a class="<?php if($page =='index'){ echo "active"; } ?> "  href="index.php" >Início</a></li>
 
-				<li class="fonte"><a  href="historia.php" > História</a></li>
+				<li class="fonte"><a class="<?php if($page =='historia'){ echo "active"; } ?>"  href="historia.php" > História</a></li>
 
-				<li class="fonte"><a  href="escritorio.php" >Escritório</a></li>
+				<li class="fonte"><a class="<?php if($page =='escritorio'){ echo "active"; } ?>"  href="escritorio.php" >Escritório</a></li>
 
-				<li class="fonte" ><a  href="atuacao.php" > Atuação</a></li>
+				<li class="fonte" ><a class="<?php if($page =='atuacao'){ echo "active"; } ?>"  href="atuacao.php" > Atuação</a></li>
 
-				<li class="fonte" ><a  href="advogados.php" > Advogados</a></li>
+				<li class="fonte" ><a class=" <?php if($page =='advogados'){ echo "active"; } ?>"  href="advogados.php" > Advogados</a></li>
 
-				<li class="fonte" ><a  href="areacliente.php" >
+				<li class="fonte" ><a class=" <?php if($page =='areaCliente'){ echo "active"; } ?>"  href="areacliente.php" >
 				Área de cliente</a></li>
 
-				<li class="fonte"><a class="menu" href="contato.php">Contato</a></li>
+				<li class="fonte"><a class="<?php if($page =='contato'){ echo "active"; } ?> class="menu" href="contato.php">Contato</a></li>
 			</ul>
+
 
 		</div>
 	</div>

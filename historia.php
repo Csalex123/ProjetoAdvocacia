@@ -16,8 +16,8 @@
 
 <body>
 
-
 	<?php 
+	$page = "historia";
 	include('menu.php');
 	?>
 	

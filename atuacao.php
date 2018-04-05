@@ -13,8 +13,8 @@
 <body>
 
 
-
 	<?php 
+	$page = "atuacao";
 	include('menu.php');
 	?>
 

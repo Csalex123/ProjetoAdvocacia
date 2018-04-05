@@ -18,6 +18,7 @@
 
 
 	<?php 
+	$page = "escritorio";
 	include('menu.php');
 	?>
 	

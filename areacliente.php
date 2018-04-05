@@ -15,6 +15,7 @@
 
 
 	<?php 
+	$page = "areaCliente";
 	include('menu.php');
 	?>
 	

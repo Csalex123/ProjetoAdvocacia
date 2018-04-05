@@ -9,39 +9,64 @@
 	<title>Valmir Oliveira Advogados</title>
 	<link rel="icon"  href="img/icon.png">
 	<link rel="stylesheet" type="text/css" href="css/cssprincipal.css">
-
-
+	<link rel="stylesheet" type="text/css" href="css/contato.css">
 </head>
 
 <body>
 
 
 	<?php 
+	$page = "contato";
 	include('menu.php');
 	?>
-	
 
-	<div class="container">
+<header>
+	<h2 id="titulo">Fale conosco</h2>
+</header><br>
 
-		<div class="row"><header><h3>
-			<b>Contato</b>
-		</h3></header></div>
 
-		<div class="row">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a diam tellus. In hac habitasse platea dictumst. Cras eleifend eu ante ac cursus. Vivamus malesuada ultricies velit at iaculis. Suspendisse tristique, lacus in congue viverra, arcu lectus molestie tellus, nec posuere ex turpis eu orci. Vivamus sed dolor eu ex rhoncus ultricies. Curabitur sollicitudin, augue id mollis laoreet, mauris lectus hendrerit arcu, ultrices sollicitudin arcu ipsum nec quam. Vivamus pulvinar eros ac tempus pulvinar. Phasellus blandit ac lectus eget interdum. Mauris ac magna purus. Nulla et lectus nibh. Proin ligula risus, ultrices ac molestie non, pulvinar a orci. Duis at quam ipsum. Sed mattis placerat massa, porta blandit nunc ultrices porttitor.</p>
+<div class="container " >		
+	<div class="col-sm-6" style="">
+		<form method="post" action="#" style="" id="form"> 				
+			<label>Nome:</label> <input id="nome" class="form-control" type="text" name="" minlength="1" maxlength="120" required="" placeholder="Digite seu nome"><br>
 
-			<p>Donec pretium nec eros posuere imperdiet. Sed posuere purus in rhoncus vulputate. Phasellus mi lorem, lacinia at ipsum ut, ornare ornare enim. Morbi mollis, turpis ac cursus ornare, massa orci interdum est, vitae consequat ipsum augue nec augue. Cras id lorem sed eros tincidunt ullamcorper. Sed commodo odio magna, a hendrerit enim iaculis a. Ut a faucibus velit. Nulla venenatis sem in ultrices posuere. Sed ac pharetra erat, id consequat ex.</p>
+			<label>Fone:</label> <input id="contato" name="tel" id="tel" class="form-control" type="text" required="" placeholder="(00) 00000-0000">	<br>
 
-			<p>Donec pretium nec eros posuere imperdiet. Sed posuere purus in rhoncus vulputate. Phasellus mi lorem, lacinia at ipsum ut, ornare ornare enim. Morbi mollis, turpis ac cursus ornare, massa orci interdum est, vitae consequat ipsum augue nec augue. Cras id lorem sed eros tincidunt ullamcorper. Sed commodo odio magna, a hendrerit enim iaculis a. Ut a faucibus velit. Nulla venenatis sem in ultrices posuere. Sed ac pharetra erat, id consequat ex.</p>
+			<label>Email:</label>  <input id="email" class="form-control" type="email" name="" minlength="5" maxlength="70" required="" placeholder="Digite seu email"> <br>
 
-			<p>Proin lobortis velit nec orci interdum, sit amet venenatis neque viverra. Maecenas at leo ultricies, pharetra sapien ut, vehicula diam. Integer et imperdiet nunc. Ut interdum suscipit elit, nec scelerisque lorem pretium vitae. Aenean ac lorem libero. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis diam dolor, tempor sed diam pharetra, elementum facilisis mi. Nulla in condimentum sapien. Sed fringilla sem sit amet mollis finibus. Pellentesque efficitur eget erat at porttitor. Duis id lorem at eros pellentesque dapibus. Donec feugiat efficitur libero quis laoreet.</p>
-		</div>
+			<label>Mensagem:</label> <textarea id="mensagem" rows="6"  class="form-control" minlength="10" required="" placeholder="Digite uma mensagem"></textarea ><br>
+
+			<input id="button"  class="btn btn-success" type="submit"  value="Enviar">			
+		</form>
 	</div>
+</div>
 
-	<?php 
-	include('rodape.php');
-	?>
 
+
+<?php 
+include('rodape.php');
+?>
+
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		var SPMaskBehavior = function (val) {
+			return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
+		},
+		spOptions = {
+			onKeyPress: function(val, e, field, options) {
+				field.mask(SPMaskBehavior.apply({}, arguments), options);
+			}
+		};
+
+		$('#tel').mask(SPMaskBehavior, spOptions);
+	});
+</script>
+
+
+<!-- Importando Jquery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
 </body> 	
 
 </html

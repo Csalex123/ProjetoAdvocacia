@@ -20,8 +20,10 @@
 
 
 	<?php 
+	$page = "advogados";
 	include('menu.php');
 	?>
+	
 	
 
 	<div class="container">

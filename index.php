@@ -18,6 +18,7 @@
 
 
 	<?php 
+	$page = "index";
 	include('menu.php');
 	?>
 	
