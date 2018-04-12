@@ -8,18 +8,24 @@
 
 	<!-- Importantado bootstrap-->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 	<!-- Arquivo css do menu-->
 	<link rel="stylesheet" type="text/css" href="css/menu.css">
+
 	<style type="text/css">
-	 .navbar .navbar-collapse ul .active {
-	 	background-color: #7F8384;
-	 	color: white;
-	 }
-		
-	</style>
-    
+	/* Classe active  */
+	.navbar .navbar-collapse ul .active {
+		background-color: rgba(127,131,132, 0.4);
+		color: white;
+	}
+	/* Hover do menu  */
+	li:hover{
+		background-color: rgba(127,131,132, 0.4);
+
+	}
+</style>
 
 </head>
 
@@ -27,7 +33,7 @@
 <body>
 	<!-- Banner-->	
 	<div class="titulo header" >
-		<img class="img-responsive" src="img/logo.png" alt="Logo.png">
+		<a href="index.php"><img class="img-responsive" src="img/logo.png" alt="Logo.png" data-toggle="tooltip" title="Ir a página inicial"></a>
 		<br>
 	</div>
 
@@ -55,7 +61,7 @@
 
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav" id="navmenu">
-								<!-- Opções do menu-->
+				<!-- Opções do menu-->
 				<li class="fonte"><a class="<?php if($page =='index'){ echo "active"; } ?> "  href="index.php" >Início</a></li>
 
 				<li class="fonte"><a class="<?php if($page =='historia'){ echo "active"; } ?>"  href="historia.php" > História</a></li>

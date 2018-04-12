@@ -19,19 +19,20 @@ label{
 }
 
 
-@media only screen and (max-width: 500px) {
+
+@media only screen and (max-width: 800px) {
 	#nome{
-		width: 290px;
+		width: 330px;
 	}
 	#email{
-		width: 290px;
+		width: 330px;
 	}
-	#contato{
-		width: 290px;
+	#tel{
+		width: 330px;
 	}
 
 	#menagem{
-		width: 290px;
+		width: 330px;
 	}
 }
 
@@ -40,3 +41,12 @@ label{
 	font-size: 2em;
 	text-align: center;
 }
+
+		input::placeholder, textarea::placeholder{
+			text-transform: uppercase;
+		}
+
+		textarea{
+			max-height: 250px;
+			max-width: 600px;
+		}

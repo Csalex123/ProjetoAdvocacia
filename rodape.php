@@ -11,7 +11,7 @@
 
 	<div class="footer">
 
-		<p  id="rua" class="margin"> Rua Professor José Brandão, 389 - Sala 303 </p>
+		<p  id="rua" class="margin" style="margin-left: 0px;"> Rua Professor José Brandão, Nº 389 - Sala 303 </p>
 
 		<p class="margin">Boa Viagem - Recife-PE - CEP: 51020-180</p>
 

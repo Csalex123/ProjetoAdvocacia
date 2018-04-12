@@ -24,9 +24,17 @@ body{
 
 
 li:hover{
-	background-color: #7F8384;
+	background-color: rgba(127,131,132, 0.4);
 
 }
+
+/* Classe active  */
+.navbar .navbar-collapse ul .active {
+	background-color: rgba(127,131,132, 0.4);
+	color: white;
+}
+
+
 /* Classe que está sendo usada no menu responsivo. */
 #menuResponsivo{
 	float: left;
